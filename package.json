@@ -22,6 +22,6 @@
     "webpack": "^5",
     "webpack-cli": "^5",
     "webpack-dev-server": "^4",
-    "babel-plugin-emotion-rename": "1.0.0-beta.5"
+    "babel-plugin-emotion-rename": "link:../babel-plugin-emotion-rename"
   }
 }

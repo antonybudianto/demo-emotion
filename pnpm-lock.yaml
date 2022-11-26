@@ -8,7 +8,7 @@ specifiers:
   '@emotion/react': 11.10.5
   '@emotion/styled': 11.10.5
   babel-loader: ^8.0.5
-  babel-plugin-emotion-rename: 1.0.0-beta.5
+  babel-plugin-emotion-rename: link:../babel-plugin-emotion-rename
   react: ^18.2.0
   react-dom: ^18.2.0
   webpack: ^5
@@ -27,7 +27,7 @@ devDependencies:
   '@babel/preset-env': 7.20.2_@babel+core@7.20.2
   '@babel/preset-react': 7.18.6_@babel+core@7.20.2
   babel-loader: 8.3.0_6bc01c084ca39b676a2aa715dddddb3a
-  babel-plugin-emotion-rename: 1.0.0-beta.5
+  babel-plugin-emotion-rename: link:../babel-plugin-emotion-rename
   webpack: 5.75.0_webpack-cli@5.0.0
   webpack-cli: 5.0.0_a03037929752522b8c382995bf0923ba
   webpack-dev-server: 4.11.1_webpack-cli@5.0.0+webpack@5.75.0
@@ -1813,12 +1813,6 @@ packages:
       make-dir: 3.1.0
       schema-utils: 2.7.1
       webpack: 5.75.0_webpack-cli@5.0.0
-    dev: true
-
-  /babel-plugin-emotion-rename/1.0.0-beta.5:
-    resolution: {integrity: sha512-ToKfK0kcVW7AXP7laixYeT8EqwBbfFG9AdbwmCMihjCE9QLOBkaUVfDiBh0A8//KnaMaybb7CF1DhYa130w9Sw==}
-    dependencies:
-      '@babel/template': 7.18.10
     dev: true
 
   /babel-plugin-macros/3.1.0:

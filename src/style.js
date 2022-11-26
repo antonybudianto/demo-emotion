@@ -2,16 +2,23 @@
 import styled, { css } from "react-emotion";
 
 export const normalCss = css`
-  color: orange;
+  color: pink;
 `;
 
 const BasicStyle = function BasicStyleCmp(props) {
   return css`
-    background-color: #000;
+    background-color: lightblue;
+  `;
+};
+
+const NewStyle = function NewStyleB(props) {
+  return css`
+    border: 5px solid green;
   `;
 };
 
 export const Cmp = styled.div`
   ${BasicStyle}
-  color: #fff;
+  ${NewStyle}
+  color: orange;
 `;

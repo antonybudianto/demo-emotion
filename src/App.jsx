@@ -1,16 +1,14 @@
-import React from "react";
-
 import { Cmp, normalCss } from "./style";
+import { Cmp2 } from "./style2";
 
-class App extends React.Component {
-  render() {
-    return (
-      <div>
-        <div className={normalCss}>classname with emo-css</div>
-        <Cmp>emotion-legacy cmp rendered with emotion11</Cmp>
-      </div>
-    );
-  }
-}
+const App = () => {
+  return (
+    <div>
+      <div className={normalCss}>classname with emo-css</div>
+      <Cmp>emotion-legacy cmp rendered with emotion11</Cmp>
+      <Cmp2>Cmp2</Cmp2>
+    </div>
+  );
+};
 
 export default App;
