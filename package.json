@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "postbuild": "mkdir -p dist && cp -R public/* build/* ./dist",
+    "serve": "serve ./dist"
   },
   "dependencies": {
     "@emotion/css": "11.10.5",
@@ -15,6 +17,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "serve": "14.1.2",
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.0",
     "@babel/preset-react": "^7.9.0",
@@ -22,6 +25,6 @@
     "webpack": "^5",
     "webpack-cli": "^5",
     "webpack-dev-server": "^4",
-    "babel-plugin-emotion-rename": "link:../babel-plugin-emotion-rename"
+    "babel-plugin-emotion-rename": "1.0.0-beta.18"
   }
 }

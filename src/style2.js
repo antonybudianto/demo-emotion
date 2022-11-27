@@ -2,11 +2,12 @@
 import styled, { css } from "react-emotion";
 
 const NewStyle = (props) => css`
-  border: 20px solid pink;
+  border: 20px solid lightgray;
   padding: 10px;
 `;
 
 export const Cmp2 = styled.div`
   ${NewStyle}
-  color: blue;
+  background-color: lightgreen;
+  color: green;
 `;
